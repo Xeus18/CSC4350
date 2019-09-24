@@ -25,7 +25,7 @@ class Vehicle(object):
 
 
 if __name__ == "__main__":
-    truck = Vehicle("red", 3, 6, "truck",0)
+    truck = Vehicle("red", 3, 6, "truck",speed)
     print(truck.drive())
     print(truck.brake())
 
